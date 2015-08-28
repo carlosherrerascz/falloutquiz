@@ -17,7 +17,12 @@
     "gulp-uglify": "^1.2.0",
     "minify": "^1.4.19",
     "plumber": "^0.4.8",
-    "uglify": "^0.1.5"
+    "uglify": "^0.1.5",
+    "gulp-minify-html": "~1.0.4",
+    "gulp-imagemin": "~2.3.0",
+    "imagemin-pngquant": "~4.1.2",
+    "gulp-jsonminify": "~1.0.0",
+    "gulp-autoprefixer": "~2.3.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

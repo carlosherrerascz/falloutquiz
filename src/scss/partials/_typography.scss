@@ -1,0 +1,11 @@
+h1, label, #userAuthTitle, #userNameLabel, #passwordLabel, #btnSignin, #btnSignup, #userMessage  {
+    font-family: 'Open Sans', arial, serif;
+}
+
+#userNameLabel, #passwordLabel {
+    font-size: 12px;
+    text-align: right;
+}
+#userMessage {
+    font-size: 10px;
+}

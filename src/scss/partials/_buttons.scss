@@ -1,0 +1,41 @@
+@import '../modules/base';
+#btnNext {
+    position: absolute;
+    bottom: 40%;
+    right: 4%;
+    display: none;
+    background-color: orangered;
+    font-family: 'Open Sans', arial, serif;
+    font-size: 30px;
+    color: white;
+    border: solid transparent;
+    border-radius: 5px;
+}
+#btnNext:hover {
+    background-color: orangered+55;
+    cursor: pointer;
+}
+
+#btnBack:hover {
+    @extend #btnNext:hover;
+}
+
+
+#btnBack {
+    @extend #btnNext;
+    right: 0%;
+    left: 4%;   
+}
+
+#btnReset {
+    @extend #btnNext;
+    position: fixed;
+    font-size: 50px;
+    @include centre;
+    background-color: #2D69B5;
+}
+
+#btnReset:hover {
+    background-color: #2D69B5+55;
+}
+
